@@ -1,6 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1626383662882" clover="3.2.0">
-  <project timestamp="1626383662883" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
+<coverage generated="1626530888415" clover="3.2.0">
+  <project timestamp="1626530888415" name="All files">
+    <metrics statements="64" coveredstatements="35" conditionals="4" coveredconditionals="2" methods="35" coveredmethods="13" elements="103" coveredelements="50" complexity="0" loc="64" ncloc="64" packages="10" files="12" classes="12"/>
+    <package name="src">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="App.tsx" path="/Users/jmiguel/Documents/Agilizei-Bootcamp/Chapter-3/proffy-aglz/web/src/App.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="20" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/Users/jmiguel/Documents/Agilizei-Bootcamp/Chapter-3/proffy-aglz/web/src/index.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="20" type="stmt"/>
+      </file>
+      <file name="routes.tsx" path="/Users/jmiguel/Documents/Agilizei-Bootcamp/Chapter-3/proffy-aglz/web/src/routes.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="20" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Input">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/jmiguel/Documents/Agilizei-Bootcamp/Chapter-3/proffy-aglz/web/src/components/Input/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="20" type="stmt"/>
+        <line num="11" count="80" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.PageHeader">
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/jmiguel/Documents/Agilizei-Bootcamp/Chapter-3/proffy-aglz/web/src/components/PageHeader/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="15" count="20" type="stmt"/>
+        <line num="16" count="20" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Select">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.tsx" path="/Users/jmiguel/Documents/Agilizei-Bootcamp/Chapter-3/proffy-aglz/web/src/components/Select/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="14" count="20" type="stmt"/>
+        <line num="15" count="40" type="stmt"/>
+        <line num="21" count="360" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.TeacherItem">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="index.tsx" path="/Users/jmiguel/Documents/Agilizei-Bootcamp/Chapter-3/proffy-aglz/web/src/components/TeacherItem/index.tsx">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="22" count="20" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Textarea">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/jmiguel/Documents/Agilizei-Bootcamp/Chapter-3/proffy-aglz/web/src/components/Textarea/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="20" type="stmt"/>
+        <line num="11" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.Landing">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="index.tsx" path="/Users/jmiguel/Documents/Agilizei-Bootcamp/Chapter-3/proffy-aglz/web/src/pages/Landing/index.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="15" count="80" type="stmt"/>
+        <line num="17" count="80" type="stmt"/>
+        <line num="18" count="20" type="stmt"/>
+        <line num="19" count="20" type="stmt"/>
+        <line num="21" count="20" type="stmt"/>
+        <line num="25" count="80" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.TeacherForm">
+      <metrics statements="30" coveredstatements="10" conditionals="2" coveredconditionals="0" methods="17" coveredmethods="2"/>
+      <file name="index.tsx" path="/Users/jmiguel/Documents/Agilizei-Bootcamp/Chapter-3/proffy-aglz/web/src/pages/TeacherForm/index.tsx">
+        <metrics statements="30" coveredstatements="10" conditionals="2" coveredconditionals="0" methods="17" coveredmethods="2"/>
+        <line num="14" count="24" type="stmt"/>
+        <line num="16" count="24" type="stmt"/>
+        <line num="17" count="24" type="stmt"/>
+        <line num="18" count="24" type="stmt"/>
+        <line num="19" count="24" type="stmt"/>
+        <line num="21" count="24" type="stmt"/>
+        <line num="22" count="24" type="stmt"/>
+        <line num="24" count="24" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="66" count="24" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="141" count="24" type="stmt"/>
+        <line num="147" count="0" type="stmt"/>
+        <line num="164" count="0" type="stmt"/>
+        <line num="172" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.TeacherList">
+      <metrics statements="12" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/jmiguel/Documents/Agilizei-Bootcamp/Chapter-3/proffy-aglz/web/src/pages/TeacherList/index.tsx">
+        <metrics statements="12" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="1"/>
+        <line num="11" count="16" type="stmt"/>
+        <line num="12" count="16" type="stmt"/>
+        <line num="13" count="16" type="stmt"/>
+        <line num="15" count="16" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="16" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="api.ts" path="/Users/jmiguel/Documents/Agilizei-Bootcamp/Chapter-3/proffy-aglz/web/src/services/api.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="20" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
